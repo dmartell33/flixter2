@@ -43,4 +43,3 @@ class Instructor::SectionsController < ApplicationController
   end
 end
 
-end
