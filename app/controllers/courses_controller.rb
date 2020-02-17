@@ -7,4 +7,3 @@ class CoursesController < ApplicationController
     @course = Course.find(params[:id])
   end
 end 
-end
