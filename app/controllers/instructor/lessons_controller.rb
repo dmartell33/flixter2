@@ -43,4 +43,3 @@ class Instructor::LessonsController < ApplicationController
 
 end
 
-end
