@@ -8,16 +8,16 @@
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h2>
-      <%= image_tag course.image.to_s, class: 'img-fluid center' %>
-      <br /><br />
-      <div class="row">
-        <div class="col-sm-8 col-12">
-          <%= course.description %>
-        </div>
-        <div class="col-sm-4 col-12 text-center">
-        <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
-        </div>
+    <%= image_tag @course.image.url.to_s, class: 'img-fluid mx-auto d-block rounded' %>
+    <br />
+    <div class="row">
+      <div class="col-sm-8 col-12">
+        <%= course.description %>
       </div>
-      <br class="clr" />
+      <div class="col-sm-4 col-12 text-center">
+        <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
+      </div>
+    </div>
+    <div class="clearfix"></div>
   <% end %>
 </div>
