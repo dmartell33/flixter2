@@ -6,6 +6,8 @@ class Course < ApplicationRecord
   has_many :enrollments
 
 
+  
+
 
   def free?
     cost.zero?
