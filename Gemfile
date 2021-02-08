@@ -77,7 +77,7 @@ gem 'font-awesome-rails'
 
 gem 'devise'
 
-gem 'carrierwave', '~> 1.3.1'
+gem 'carrierwave', '~> 1.3.2'
 
 gem 'figaro'
 
